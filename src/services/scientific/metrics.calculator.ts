@@ -62,7 +62,9 @@ const HealthCalculator = {
         errorMessage += "update_health_goal tool has not been called yet"
       }
 
-      const finalMessage = errorMessage + "call the functions in that order and generate a user friendly message notifying them on the situation and telling them to run this protocol again."
+      const finalMessage = errorMessage + `call the functions in that order and
+      generate a user friendly message notifying them on the situation and telling
+      them to run this protocol again.`
       return finalMessage
     }
 
